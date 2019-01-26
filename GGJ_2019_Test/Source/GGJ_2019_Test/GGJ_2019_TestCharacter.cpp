@@ -45,8 +45,6 @@ AGGJ_2019_TestCharacter::AGGJ_2019_TestCharacter()
 
 	// Note: The skeletal mesh and anim blueprint references on the Mesh component (inherited from Character) 
 	// are set in the derived blueprint asset named MyCharacter (to avoid direct content references in C++)
-
-	PlayerHP = 100;
 }
 
 //////////////////////////////////////////////////////////////////////////
@@ -108,7 +106,7 @@ void AGGJ_2019_TestCharacter::LookUpAtRate(float Rate)
 
 void AGGJ_2019_TestCharacter::MoveForward(float Value)
 {
-	if ((Controller != NULL) && (Value != 0.0f))
+	if ((Controller != NULL) && (Value != 0.0f) && !isConfiguring && !isChangingLevels)
 	{
 		// find out which way is forward
 		const FRotator Rotation = Controller->GetControlRotation();
@@ -122,7 +120,7 @@ void AGGJ_2019_TestCharacter::MoveForward(float Value)
 
 void AGGJ_2019_TestCharacter::MoveRight(float Value)
 {
-	if ( (Controller != NULL) && (Value != 0.0f) )
+	if ( (Controller != NULL) && (Value != 0.0f) && !isConfiguring && !isChangingLevels)
 	{
 		// find out which way is right
 		const FRotator Rotation = Controller->GetControlRotation();

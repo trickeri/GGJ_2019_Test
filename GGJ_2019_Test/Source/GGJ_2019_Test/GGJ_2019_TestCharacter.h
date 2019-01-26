@@ -29,9 +29,10 @@ public:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category=Camera)
 	float BaseLookUpRate;
 
-	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Stats")
-	int32 PlayerHP;
-
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category="MovementLockouts")
+		bool isConfiguring;
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category="MovementLockouts")
+		bool isChangingLevels;
 
 
 protected:
