@@ -52,6 +52,8 @@
 # Precompiled Assets
 SourceArt/**/*.png
 SourceArt/**/*.tga
+
+#Gideon
 */Content/ParagonGideon/Audio
 */Content/ParagonGideon/FX
 */Content/ParagonGideon/Characters/Global
@@ -62,6 +64,9 @@ SourceArt/**/*.tga
 */Content/ParagonGideon/Characters/Heroes/Gideon/Skins
 
 */Content/ParagonGideon/
+
+#Paragon Minions
+*/Content/ParagonMinions/
 
 # Binary Files
 Binaries/*
