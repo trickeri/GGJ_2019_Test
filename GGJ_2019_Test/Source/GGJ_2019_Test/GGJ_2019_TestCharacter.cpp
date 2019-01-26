@@ -65,10 +65,10 @@ void AGGJ_2019_TestCharacter::SetupPlayerInputComponent(class UInputComponent* P
 	// We have 2 versions of the rotation bindings to handle different kinds of devices differently
 	// "turn" handles devices that provide an absolute delta, such as a mouse.
 	// "turnrate" is for devices that we choose to treat as a rate of change, such as an analog joystick
-	PlayerInputComponent->BindAxis("Turn", this, &APawn::AddControllerYawInput);
-	PlayerInputComponent->BindAxis("TurnRate", this, &AGGJ_2019_TestCharacter::TurnAtRate);
-	PlayerInputComponent->BindAxis("LookUp", this, &APawn::AddControllerPitchInput);
-	PlayerInputComponent->BindAxis("LookUpRate", this, &AGGJ_2019_TestCharacter::LookUpAtRate);
+	// PlayerInputComponent->BindAxis("Turn", this, &APawn::AddControllerYawInput);
+	//PlayerInputComponent->BindAxis("TurnRate", this, &AGGJ_2019_TestCharacter::TurnAtRate);
+	//PlayerInputComponent->BindAxis("LookUp", this, &APawn::AddControllerPitchInput);
+	//PlayerInputComponent->BindAxis("LookUpRate", this, &AGGJ_2019_TestCharacter::LookUpAtRate);
 
 	// handle touch devices
 	PlayerInputComponent->BindTouch(IE_Pressed, this, &AGGJ_2019_TestCharacter::TouchStarted);

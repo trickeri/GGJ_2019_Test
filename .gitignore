@@ -94,6 +94,7 @@ DerivedDataCache/*
 */Saved/
 */Build/
 */DerivedDataCache/
+*/ParagonGideon/
 
 # Visual Studio Database Files (can be generated as well) #
 *.VC.db
