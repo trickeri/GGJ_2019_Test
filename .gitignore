@@ -61,12 +61,6 @@ SourceArt/**/*.tga
 */Content/ParagonGideon/Characters/Heroes/Gideon/Textures
 */Content/ParagonGideon/Characters/Heroes/Gideon/Skins
 
-
-
-
-*/Content/ParagonGideon/Characters/Maps
-Content\ParagonGideon\Characters\Heroes\Gideon
-
 # Binary Files
 Binaries/*
 Plugins/*/Binaries/*
