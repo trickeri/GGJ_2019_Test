@@ -55,6 +55,9 @@ SourceArt/**/*.tga
 
 #Gideon
 */Content/ParagonGideon/
+*/Content/ParagonGideon/Audio/
+*/Content/ParagonGideon/Characters/
+*/Content/ParagonGideon/FX/
 
 #Paragon Minions
 */Content/ParagonMinions/
@@ -103,3 +106,7 @@ DerivedDataCache/*
 
 # Visual Studio Database Files (can be generated as well) #
 *.VC.db
+GGJ_2019_Test/Content/Blueprints/Player/Player_AnimBlueprint.uasset
+GGJ_2019_Test/Content/ParagonGideon/Characters/Heroes/Gideon/Animations/AimOffsets/AO_Blendspace.uasset
+GGJ_2019_Test/Content/Blueprints/Player/Player_AnimBlueprint.uasset
+GGJ_2019_Test/Content/ParagonGideon/Characters/Heroes/Gideon/Animations/AimOffsets/AO_Blendspace.uasset
