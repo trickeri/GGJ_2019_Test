@@ -54,14 +54,14 @@ SourceArt/**/*.png
 SourceArt/**/*.tga
 
 #Gideon
-*/Content/ParagonGideon/Audio
-*/Content/ParagonGideon/FX
-*/Content/ParagonGideon/Characters/Global
-*/Content/ParagonGideon/Characters/Maps
-*/Content/ParagonGideon/Characters/Heroes/Gideon/Materials
-*/Content/ParagonGideon/Characters/Heroes/Gideon/Meshes
-*/Content/ParagonGideon/Characters/Heroes/Gideon/Textures
-*/Content/ParagonGideon/Characters/Heroes/Gideon/Skins
+#*/Content/ParagonGideon/Audio
+#*/Content/ParagonGideon/FX
+#*/Content/ParagonGideon/Characters/Global
+#*/Content/ParagonGideon/Characters/Maps
+#*/Content/ParagonGideon/Characters/Heroes/Gideon/Materials
+#*/Content/ParagonGideon/Characters/Heroes/Gideon/Meshes
+#*/Content/ParagonGideon/Characters/Heroes/Gideon/Textures
+#*/Content/ParagonGideon/Characters/Heroes/Gideon/Skins
 
 */Content/ParagonGideon/
 
